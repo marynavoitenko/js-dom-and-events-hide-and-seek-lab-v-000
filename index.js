@@ -23,18 +23,6 @@ function deepestChild() {
 }
 
 function increaseRankBy(n) {
-  // const rankedLists = document.querySelectorAll('.ranked-list')
-  // const countLists = rankedLists.length
-  // let arr = []
-  // for (let i = 0; i < countLists; i++) {
-  //   debugger
-  //   arr[i] = rankedLists[i]
-  //   const elements = rankedLists[i].querySelectorAll('li')
-  //   for (let j = 0; j < elements.length; i++) {
-  //     let value = parseInt(elements[j].innerHTML)
-  //     elements[j].innerHTML = value + n
-  //   }
-  // }
 
   const rankedLists = document.querySelectorAll('.ranked-list')
   const firstList = rankedLists[0]
